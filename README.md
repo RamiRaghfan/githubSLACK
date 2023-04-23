@@ -12,7 +12,8 @@ npm run dev
 ```
 
 
-2. Download and run ngrok, input the following command: 
+2. Download and run [ngrok](https://ngrok.com/) (Registration necessary)
+, input the following command: 
 
 ```
 ngrok.exe http --host-header=rewrite localhost:8080 
