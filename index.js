@@ -33,7 +33,7 @@ app.post('/webhook', (req, res) => {
         body : JSON.stringify({text : message})
     }
 
-    fetch('https://hooks.slack.com/services/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', {
+    fetch('https://xxxxxxxx', {
     method: 'POST',
     headers: {
       'Content-type': 'application/json'
