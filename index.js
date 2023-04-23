@@ -17,7 +17,7 @@ app.post('/webhook', (req, res) => {
 
     let branch = body.ref.replace('refs/heads/', '');
 
-    console.log(req.body + " BODYYY");
+   // console.log(req.body + " BODYYY");
     let added = body.head_commit.added.join(', ');
     let modified = body.head_commit.modified.join(', ');
     let removed = body.head_commit.removed.join(', ');
